@@ -55,7 +55,7 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.login('MTA2ODkyMTMwMjgwODgwMTM0MQ.G8zb_D.kEng-uq4jKAaIPhcLXQHlG8wPnIHuY-WazisJg');
+client.login(token);
 
 function msToHMS(ms) {
   let seconds = ms / 1000; //將毫秒轉換為秒
